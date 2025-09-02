@@ -1,0 +1,43 @@
+
+# Ignore large datasets
+# -------------------------
+data/*.csv
+*.csv
+
+# -------------------------
+# Python related ignores
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# -------------------------
+# Power BI files
+# -------------------------
+*.pbix_tmp
+*.rdl
+*.rpt
+
+# -------------------------
+# System / OneDrive / Windows
+# -------------------------
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive sync junk
+~$*
