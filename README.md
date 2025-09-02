@@ -77,8 +77,6 @@ Open the folder in VS Code
 Update your MySQL connection string in get_vendor_summary.py
 
 Run:
-
-
 python get_vendor_summary.py
 Explore the Dashboard in Power BI:
 
@@ -88,7 +86,9 @@ Import the dataset or connect to your database
 
 Use the visuals from Vendor_Performance Dashboard.pdf
 
-🛠️ Tech Stack
+
+
+## 🛠️ Tech Stack
 Python → Pandas, NumPy, Matplotlib, Seaborn
 
 SQL & SQLAlchemy → Data storage and querying
