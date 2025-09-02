@@ -16,10 +16,7 @@ Vendor_Data_Analysis/
 │── README.md # Project documentation
 │── data/ (not included - see dataset link below)
 
-yaml
-Copy code
 
----
 
 ## 📂 Dataset
 
@@ -37,10 +34,6 @@ Vendor_Data_Analysis/
 ├── vendor_invoice.csv
 ├── purchase_prices.csv
 
-yaml
-Copy code
-
----
 
 ## 🔍 Key Analysis
 
@@ -73,8 +66,7 @@ The **Vendor Performance Dashboard** provides interactive insights:
    cd VendorPerformanceAnalysis
 Install required libraries:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Download the dataset and place it in the data/ folder.
 
@@ -86,8 +78,7 @@ Update your MySQL connection string in get_vendor_summary.py
 
 Run:
 
-bash
-Copy code
+
 python get_vendor_summary.py
 Explore the Dashboard in Power BI:
 
